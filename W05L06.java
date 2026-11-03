@@ -1,7 +1,7 @@
 
 import java.util.Random;
 
-public class main{
+public class W05L06{
     public static void main(String[] args) {
         Random r = new Random();
         int n = r.nextInt(Integer.MAX_VALUE); 
