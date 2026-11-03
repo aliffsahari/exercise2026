@@ -1,7 +1,7 @@
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class LargeIntegerInput {
+public class W05L03 {
     public static void main(String[] args) {
         System.out.print("Enter a score [negative score to quit]: ");
         Scanner sc = new Scanner(System.in);
