@@ -9,25 +9,25 @@ public class W05L05{
         int s1 = 0;
         int s2 = 0;
         while (s1<=100 || s2<=100){
-          p1 = r.nextInt(7);
+          p1 = r.nextInt(6)+1;
           s1 += p1;
           if (s1>100){
             break;
           }
           while (p1 == 6){
-            p1 = r.nextInt(7);
+            p1 = r.nextInt(6)+1;
             s1 += p1;
             if (s1>100){
               break;
             }
           }
-          p2 = r.nextInt(7);
+          p2 = r.nextInt(6)+1;
           s2 += p2;
           if (s2>100){
             break;
           }
           while (p2 == 6){
-            p2 = r.nextInt(7);
+            p2 = r.nextInt(6)+1;
             s2 += p2;
             if (s2>100){
               break;
